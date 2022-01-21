@@ -1,0 +1,21 @@
+.avatar{
+    border-radius: 10px;
+    margin: 10%;
+    padding-top: 0;    
+    width: 80%;
+    box-shadow: 10px 0px 10px 0px rgba(0, 0, 0, 0.378);
+}
+.divAvatar{
+    margin-top: 6rem;
+}
+
+.bodyAside{
+    background-color: rgba(0, 0, 0, 0.707);
+    text-align: center;
+    font-size: 28px;
+    position:unset;
+    color: rgba(255, 255, 255, 0.933);
+    padding: 10px;
+    box-shadow:  0px 10px 2px 1px rgba(0, 0, 255, .2);
+}
+

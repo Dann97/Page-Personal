@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  font-family: "Dongle", sans-serif;
+}
+:root {
+  --grayLigth: rgba(255, 255, 255, 0.809);
+}
+body {
+  /* background-image:url("/assets/concrete_wall.png"); */
+  background-color: black;
+}
+main {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin: 15px;
+  gap: 5px;
+}
+header {
+  background-color: var(--grayLigth);
+  height: 50px;
+  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.501);
+  display: grid;
+  grid-template-columns: 20% auto 10%;
+}
+header a {
+  padding-top: 10px;
+  justify-content: center;
+}
+a label{
+    /* color: blue; */
+    font-size: 35px;
+}
+
+nav {
+  align-self: center;
+  padding-right: 1%;
+  text-align: right;
+}
+nav a {
+  display: inline-flex;
+  font-size: 20px;
+}
+
+.button {
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 10px 0px 10px 0px rgba(0, 0, 0, 0.289);
+  border: none;
+  width: 3%;
+  margin-left: 90%;
+  height: 90%;
+}
+button img {
+  justify-content: center;
+}
+.button:hover {
+  background-color: #ffffffde;
+  color: rgb(0, 0, 0);
+}
+.logo {
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  padding-left: 10%;
+  padding-top: 0;
+}
+
+.a-link {
+  color: rgb(0, 0, 0);
+  font-family: "Source Code Pro", monospace;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.a-link:hover {
+  color: coral;
+}
+img {
+  width: 30px;
+  padding-top: 10px;
+}
+header img {
+  width: 10%;
+}
+
+.searchInput {
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  box-sizing: inherit;
+  width: 90%;
+  margin-top: 10px;
+  height: 57%;
+  padding-right: 0.5%;
+}
+
+/**
+Section
+*/
+
+section {
+  background: rgba(255, 255, 255, 0.323);
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: 5% 90% 5%;
+}
+aside {
+  background-color: var(--grayLigth);
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 100%;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  color: rgb(255, 255, 255);
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+
+.line {
+  width: 100%;
+  height: 5px;
+  background-color: coral;
+}
+
+.icons {
+  width: 100%;
+  height: 100%;
+  padding-top: 0px;
+}
+.bodySection {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+.slide {
+  background-color: coral;
+  text-align: center;
+}
+
+.slide button {
+  border-radius: 100%;
+  border: none;
+  width: 10px;
+  height: 15 px;
+  padding: 5px;
+  background-color: black;
+}
+.slide button:hover {
+  background-color: rgb(255, 255, 255);
+}
+.triangulo {
+  width: 0;
+  height: 0;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid coral;
+  border-left: 10px solid transparent;
+}
