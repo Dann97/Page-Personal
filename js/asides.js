@@ -19,8 +19,10 @@ export const asides = function () {
         let tr= document.createElement('tr')
         let labelName=document.createElement('label');
         labelName.textContent=data.name;
+        labelName.className="color-coral"
         let labelLastName=document.createElement('label');
         labelLastName.textContent= '\n' + data.lastName;
+        labelLastName.className="color-coral"
         let labelProfile=document.createElement('label');
         labelProfile.textContent= '\n' + data.profile;
         let labelEmail=document.createElement('label');
@@ -29,7 +31,7 @@ export const asides = function () {
         let labelLn=document.createElement('a');
         labelLn.href= '\n' + data.ln;
         labelLn.textContent= '\n' + "LinkedIn";
-        labelLn.style="color:white"
+        labelLn.className="color-coral"
         labelLn.target="blank"
         p.appendChild(labelName);
         p.appendChild(labelLastName);
